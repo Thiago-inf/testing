@@ -2,10 +2,6 @@ import sys
 import os
 from PIL import Image
 
-#def openImage(filepath):
- #   img = Image.open('./Pokedex2/bulbasaur.jpg')
-  #  img.show()
-
 def isPathValid(folderpath):
     return os.path.exists(folderpath)
 
@@ -54,3 +50,5 @@ def main():
         print("Invalid path! Folder does not exist. Check if you put slash or backslash in the last char")
 
 main()
+
+#adding irrelevant comment to test Git
